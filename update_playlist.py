@@ -8,7 +8,7 @@ FILTER_KEYWORD = os.getenv("FILTER_KEYWORD")  # সিক্রেটে দে�
 OUTPUT_FILE = "playlist.m3u"
 
 # আপনার SportsPulse প্রোমো চ্যানেল
-MY_SPORTSPULSE_STREAM_URL = "https://playztv.pages.dev/promo/master.m3u8"
+MY_SPORTSPULSE_STREAM_URL = "https://sportzpulse.pages.dev/master.m3u8"
 MY_HEADER = """#=================================
 # Customized By: SportsPulse
 #=================================="""
