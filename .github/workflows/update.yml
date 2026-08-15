@@ -5,6 +5,10 @@ on:
     - cron: '0 */1 * * *'
   workflow_dispatch:
 
+# GitHub Actions-কে Repo-তে Push করার অনুমতি দেওয়া হলো
+permissions:
+  contents: write
+
 jobs:
   update-playlist:
     runs-on: ubuntu-latest
