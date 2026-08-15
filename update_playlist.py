@@ -12,7 +12,7 @@ MY_SPORTSPULSE_STREAM_URL = "https://sportzpulse.pages.dev/master.m3u8"
 MY_HEADER = """#=================================
 # Customized By: SportsPulse
 #=================================="""
-MY_SPORTSPULSE_EXTINF = '#EXTINF:-1 tvg-name="Welcome to SportsPulse" group-title="Welcome to SportsPulse | Live TV" tvg-logo="https://i.imgur.com/your_logo.png",Welcome to SportsPulse'
+MY_SPORTSPULSE_EXTINF = '#EXTINF:-1 tvg-name="Welcome to SportsPulse" group-title="Welcome to SportsPulse | Live TV" tvg-logo="https://sportzpulse.pages.dev/logo1.png",Welcome to SportsPulse'
 
 def process_m3u():
     if not SOURCE_URL or not FILTER_KEYWORD:
